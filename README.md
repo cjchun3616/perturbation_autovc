@@ -122,3 +122,9 @@ parser.add_argument('--dim_emb', type=int, default=192, help='speaker embedding 
 parser.add_argument('--dim_pre', type=int, default=512)
 parser.add_argument('--freq', type=int, default=1, help='downsampling factor')
 ```
+
+ ## 4. ACKNOWLEDGMENT
+ This work...
+ 
+ ## 5. Citation
+ bibtex..
