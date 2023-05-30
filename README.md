@@ -4,7 +4,7 @@ This repository provides a PyTorch implementation of Perturbation AUTOVC.
 
 ### Audio Samples
 
-The audio samples for Perturbation AUTOVC can ben found in [audio samples]().
+The audio samples for Perturbation AUTOVC can ben found in [audio samples](https://github.com/cjchun3616/perturbation_autovc/tree/main/samples).
 
 ### Dependencies
 - Python3
