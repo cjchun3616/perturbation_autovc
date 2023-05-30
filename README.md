@@ -1,10 +1,19 @@
-## Perturbation AUTOVC: Voice Conversion from Perturbation and Autoencoder Loss
+# Perturbation AUTOVC: Voice Conversion from Perturbation and Autoencoder Loss
 
 This repository provides a PyTorch implementation of Perturbation AUTOVC.
 
-### Audio Demo
+### Audio Samples
 
-The audio demo for Perturbation AUTOVC can be found
+The audio samples for Perturbation AUTOVC are as follows:
+
+|  | Source | Target | Converted|
+| :---: | :---: | :---: | :---: |
+| F2F |  | . | . |
+| M2M | <audio controls><source src="samples/zs_m2m_source.wav" type="audio/wav">Your browser does not support the audio element.</audio> | . | . | 
+| F2M | <audio controls><source src="samples/zs_f2m_source.wav" type="audio/wav">Your browser does not support the audio element.</audio> | . | . | 
+| M2F | <audio controls><source src="samples/zs_m2f_source.wav" type="audio/wav">Your browser does not support the audio element.</audio> | . | . |
+
+
 
 ### Dependencies
 - Python3
@@ -17,6 +26,7 @@ The audio demo for Perturbation AUTOVC can be found
 - omegaconf
 - HiFi-GAN vocoder
 - ECAPA-TDNN
+  
   
  ## Pre-trained models
 
@@ -41,6 +51,7 @@ The audio demo for Perturbation AUTOVC can be found
  
  Place checkpoint at `./checkpoint` and config at `./configs`
   
+  
  ## Datasets
  
  Datasets used when training are:
@@ -50,7 +61,8 @@ The audio demo for Perturbation AUTOVC can be found
 
  Place datasets at `datasets/wavs/`
  
- ## 1. Preprocess dataset.
+ 
+ ## Preprocess dataset.
  
  If you prefer `praat-parselmouth`, run `python make_metadata.py`
  
@@ -70,7 +82,8 @@ make_data(wav_dir, real_dir, perturb_dir)
 
 When this is done, `metadata.pkl` is created at `--save_path`.
  
- ## 2. Training
+ 
+ ## Training
  
 Prefer `metadata.pkl`, including the speaker embedding, output of ECAPA-TDNN.
 
@@ -102,7 +115,7 @@ parser.add_argument('--log_step', type=int, default=10000)
 
 Converges when the reconstruction loss is around 0.01.
 
- ## 3. Inference
+## Inference
  
  Run the `python conversion.py --source_path={} --target_path={}`
  
@@ -123,8 +136,11 @@ parser.add_argument('--dim_pre', type=int, default=512)
 parser.add_argument('--freq', type=int, default=1, help='downsampling factor')
 ```
 
- ## 4. Acknowledgment
- This work...
+## Acknowledgment
+This work...
  
- ## 5. Citation
- bibtex..
+## Citation
+bibtex..
+ 
+## License
+license..
