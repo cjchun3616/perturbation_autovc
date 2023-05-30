@@ -4,16 +4,7 @@ This repository provides a PyTorch implementation of Perturbation AUTOVC.
 
 ### Audio Samples
 
-The audio samples for Perturbation AUTOVC are as follows:
-
-|  | Source | Target | Converted|
-| :---: | :---: | :---: | :---: |
-| F2F |  | . | . |
-| M2M | <audio controls><source src="samples/zs_m2m_source.wav" type="audio/wav">Your browser does not support the audio element.</audio> | . | . | 
-| F2M | <audio controls><source src="samples/zs_f2m_source.wav" type="audio/wav">Your browser does not support the audio element.</audio> | . | . | 
-| M2F | <audio controls><source src="samples/zs_m2f_source.wav" type="audio/wav">Your browser does not support the audio element.</audio> | . | . |
-
-
+The audio samples for Perturbation AUTOVC can ben found in [audio samples]().
 
 ### Dependencies
 - Python3
