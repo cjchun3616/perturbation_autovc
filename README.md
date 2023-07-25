@@ -128,10 +128,8 @@ parser.add_argument('--freq', type=int, default=1, help='downsampling factor')
 ```
 
 ## Acknowledgment
-This work...
+This work was partly supported by Institute of Information & communications Technology Planning & Evaluation (IITP) grant funded by the Korea government (MSIT) (No. 2022-0-00963, Localization Technology Development on Spoken Language Synthesis and Translation of OTT Media Contents).
  
-## Citation
-bibtex..
- 
+
 ## License
-license..
+This code is MIT-licensed. The license applies to our pre-trained models as well.
