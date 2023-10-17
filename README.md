@@ -63,7 +63,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument('--wav_dir', type=str, default='./datasets/wavs', help='path of wav directory')
 parser.add_argument('--real_dir', type=str, default='./datasets/real', help='save path of original mel-spectrogram')
 parser.add_argument('--perturb_dir', type=str, default='./datasets/perturb', help='save path of perturbation mel-spectrogram')
-parser.add_argument('--save_path', type=str, default='./datasets/preprocess_data/emb', help='save path of metadata')
+parser.add_argument('--save_path', type=str, default='./datasets/', help='save path of metadata')
 ```
 
 If the data is processed in advance, please pause this line.
